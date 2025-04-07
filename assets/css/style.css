@@ -3,11 +3,24 @@
  * @package Maupassant
  * @author cho
  * @version 2.0
- * @link http://chopstack.com
+*  @link http://chopstack.com
+* body {background-color: #f8efe8; //米黄色背景color: #515151; //深灰色文字}
+* body {background-color: #e8f6f3; //淡蓝色背景color: #333; //黑色文字}
+* body {background-color: #fffbf0; //浅黄色背景color: #333; //黑色文字}
+* body {background-color: #f1f1f1; //浅灰色背景color: #222; //深色文字}
+* 绿豆沙 #C7EDCC或#CCE8CF
+* 银河白 #FFFFFF
+* 杏仁黄 #FAF9DE
+* 秋叶褐 #FFF2E2
+* 胭脂红 #FDE6E0
+* 青草绿 #E3EDCD
+* 海天蓝 #DCE2F1
+* 葛巾紫 #E9EBFE
+* 极光灰 #EAEAEF
  */
 
 body {
-    background-color: #DCE2F1;
+    background-color: #e8f6f3;
     color: #444;
     font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
     -webkit-font-smoothing: antialiased;
