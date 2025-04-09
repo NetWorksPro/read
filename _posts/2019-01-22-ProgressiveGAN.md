@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "论文阅读_图像生成-ProgressiveGAN:Progressive growing of GANs for improved quality, stability, and variation"
+title:  "论文阅读_图像生成-ProgressiveGAN:Progressive"
 date:   2019-01-22 19:57:32 +0800--
 categories: [论文]
 tags: [paper, GAN, discriminator, generator, CelebA-HQ]  
