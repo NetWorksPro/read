@@ -2,7 +2,7 @@
 title: Read
 subtitle: [ Reading]
 keywords: Reading
-description: DomainName.Plus。微信公众号：oukohou.
+description: DomainName.Plus.
 baseurl: "/read" # the subpath of your site, e.g. /blog
 url: "https://networkspro.github.io" # 你的域名
 page_no_title: "但行好事,莫问前程,前路有光,初心莫忘" # "Reading's blog" # 文章无标题时默认显示内容
