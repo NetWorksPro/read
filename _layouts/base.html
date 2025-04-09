@@ -61,8 +61,8 @@ Yet no award for you……
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | {{ site.subtitle}}</title>
 
-    <!--live2d function-->
-    <script src="/assets/live2dw/lib/L2Dwidget.min.js"></script>
+    <!-- live2d function -->
+ <!--    <script src="/assets/live2dw/lib/L2Dwidget.min.js"></script>
     <script>L2Dwidget.init({
         "pluginRootPath": "live2dw/",
         "pluginJsPath": "lib/",
@@ -74,6 +74,7 @@ Yet no award for you……
         "mobile": {"show": true, "scale": 1,},
         "log": false
     });</script>
+     -->
 
 
     <meta name="keywords"
@@ -92,7 +93,7 @@ Yet no award for you……
     <link rel="stylesheet" type="text/css" href="{{ "/assets/css/normalize.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" type="text/css" href="{{ "/assets/css/pure-min.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" type="text/css" href="{{ "/assets/css/grids-responsive-min.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" type="text/css" href="{{ "/assets/css/style.css?v=1514870841" | prepend: site.baseurl }}">
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}">
 
     <!--use mathJax to edit formulas in LaTex grammar.-->
     <script type="text/x-mathjax-config">
@@ -130,7 +131,7 @@ Yet no award for you……
         <div class="site-name">
             <h1 class="hidden">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
             <a id="logo" href="/.">{{ site.title }}</a>
-            <p class="description">{{ site.subtitle }}，幸会。</p>
+            <p class="description">{{ site.subtitle }}，Hello World </p>
         </div>
         <div id="nav-menu">
             {% for menu in site.menu %}
@@ -183,14 +184,14 @@ Yet no award for you……
 
 
     <div id="footer">
-        Copyright &copy; 2015-<span id="cur_year"></span> <a href="https://www.oukohou.wang/">oukohou</a> - All Rights
+        Copyright &copy; 2025-<span id="cur_year"></span> <a href="/">oukohou</a> - All Rights
         Reserved.
         Powered by <a href="http://jekyllrb.com" target="_blank">Jekyll</a> @ <a
-            href="https://github.com/oukohou/oukohou.github.io" target="_blank">Github.com</a>
+            href="https://github.com" target="_blank">Github.com</a>
         <script type="text/javascript">var cur_date = new Date();
         document.getElementById("cur_year").innerHTML = cur_date.getFullYear();</script>
         {% if site.beian %}
-        <a rel="nofollow" target="_blank" href="http://www.miitbeian.gov.cn/"> {{ site.beian }}.</a>
+        <a rel="nofollow" target="_blank" href="/"> {{ site.beian }}.</a>
         {% endif %}
     </div>
 
