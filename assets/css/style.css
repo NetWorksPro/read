@@ -211,12 +211,12 @@ a:focus {
 .post {
     padding: 25px 0 15px;
 }
-
+/* post title   25px */
 .post .post-title {
     margin: 0;
     color: #555;
     text-align: left;
-    font: bold 25px/1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
+    font: bold 12px/1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
 }
 
 .post .post-title a {
