@@ -3,7 +3,7 @@ title: oukohou
 subtitle: [ 璇珠杂俎]
 keywords: oukohou
 description: 我梦扬州，便想到扬州梦我。幸会。微信公众号：oukohou.
-baseurl: "/oukohou" # the subpath of your site, e.g. /blog
+baseurl: "/read" # the subpath of your site, e.g. /blog
 url: "https://networkspro.github.io" # 你的域名
 page_no_title: "oukohou's blog" # 文章无标题时默认显示内容
 beian: # "备案号"
