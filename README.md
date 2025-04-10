@@ -7,8 +7,9 @@ _includes/widgets/star_post_list             推荐文章
 
 _layouts/post.html                           文章下面添加文字
 
+_config.yml                                   links
 
-一个简洁的、多设备支持的 Jekyll 博客模板，用于搭建[我的独立博客](http://www.oukohou.wang/)。  
+
 
 ## **使用我的博客主题的注意事项：**  
 **首先要感谢你使用我的博客主题！**   
