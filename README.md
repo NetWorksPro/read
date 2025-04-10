@@ -5,6 +5,9 @@ includes/widgets/personlized_signature     侧栏心情随笔位置
 
 _includes/widgets/star_post_list             推荐文章
 
+_layouts/post.html                           文章下面添加文字
+
+
 一个简洁的、多设备支持的 Jekyll 博客模板，用于搭建[我的独立博客](http://www.oukohou.wang/)。  
 
 ## **使用我的博客主题的注意事项：**  
