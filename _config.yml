@@ -1,5 +1,5 @@
 # Site settings
-title: Read
+title: Hello.Ga
 subtitle: [ Reading]
 keywords: Reading
 description: DomainName.Plus.
@@ -70,7 +70,7 @@ links: # 友情链接
 
 # Google Analytics
 # ga_track_id: 'UA-130856'            # Format: UA-xxxxxx-xx
-# ga_domain: www.oukohou.wang              # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+# ga_domain: www.o              # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 # Code hub settings
@@ -81,8 +81,8 @@ codehub: # 代码仓库
 
 # valine:
 #   enable: true
-#   app_id:  K1rbn2Oo0YMM04VuzdLS7Nzz-gzG
-#   app_key: AAsHbwVm8ofKFJ6ghGqqrXSU
+#   app_id:  K1rbn2Oo0YMM04Vuz
+#   app_key: AAsHbwVm8ofKFJ
 #   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
 #   verify: false # Verification code
 #   visitor: true
