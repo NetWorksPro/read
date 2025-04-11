@@ -192,24 +192,24 @@ Yet no award for you……
   }
   window.addEventListener('load', addDarkmodeWidget);
 </script>
-
 <script>
-  var options = {
+const options = {
   bottom: '64px', // default: '32px'
   right: 'unset', // default: '32px'
   left: '32px', // default: 'unset'
-  time: '0.5s', // default: '0.3s' 
+  time: '0.5s', // default: '0.3s'
   mixColor: '#fff', // default: '#fff'
-  backgroundColor: '#e8f6f3',  // default: '#fff'
+  backgroundColor: '#fff',  // default: '#fff'
   buttonColorDark: '#100f2c',  // default: '#100f2c'
-  buttonColorLight: '#e8f6f3', // default: '#fff' 
+  buttonColorLight: '#fff', // default: '#fff'
   saveInCookies: false, // default: true,
-  label: '?', // default: ''
+  label: '🌓', // default: ''
   autoMatchOsTheme: true // default: true
 }
+
 const darkmode = new Darkmode(options);
 darkmode.showWidget();
-</script>
+ </script>   
 <!-- darkmode-js -->
         Copyright &copy; 2025-<span id="cur_year"></span> <a href="/">oukohou</a> - All Rights
         Reserved.
