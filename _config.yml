@@ -1,6 +1,6 @@
 # Site settings
 title: Hello.Ga
-subtitle: [ Reading]
+subtitle: [Read,reads,reader,reading]
 keywords: Reading
 description: DomainName.Plus.
 baseurl: "/read" # the subpath of your site, e.g. /blog
