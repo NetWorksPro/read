@@ -1,4 +1,4 @@
 # robots.txt  
 User-agent: *
 Disallow: 
-Sitemap: http://hello.ga/sitemap.xml
+Sitemap: https://hello.ga/sitemap.xml
