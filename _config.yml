@@ -12,7 +12,8 @@ author: Reading
 email: hello@domainname.plus
 
 # Build settings
-permalink: /:year/:month/:day/
+# permalink: /:year/:month/:day/posts/short-id
+permalink: /blog/:id.html
 exclude: ["README.md", "changelog.md", "server", "tools", "Pipfile"]
 plugins:
   - jekyll-paginate
