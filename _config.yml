@@ -12,8 +12,8 @@ author: Reading
 email: hello@domainname.plus
 
 # Build settings
-# permalink: /year/month/day/title.html
-permalink: /:year/:month/:day/:title/
+# permalink: /:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title.html
 exclude: ["README.md", "changelog.md", "server", "tools", "Pipfile"]
 plugins:
   - jekyll-paginate
