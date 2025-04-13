@@ -3,9 +3,8 @@ title: Hello.Ga
 subtitle: [但行好事,莫问前程,前路有光,初心莫忘!]
 keywords: Reading
 description: DomainName.Plus.
-# baseurl: "/read" # the subpath of your site, e.g. /blog
-# url: "https://networkspro.github.io" # 你的域名
-url: "https://hello.ga"
+baseurl: "/read" # the subpath of your site, e.g. /blog
+url: "https://networkspro.github.io" # 你的域名
 page_no_title: "Read,Reads,Reader,Reading" # "但行好事,莫问前程,前路有光,初心莫忘" # 文章无标题时默认显示内容
 # beian: # "备案号"
 author: Reading
