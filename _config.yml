@@ -13,7 +13,7 @@ email: hello@domainname.plus
 
 # Build settings
 # permalink: /year/month/day/title.html
-permalink: /year/month/day/title.html
+permalink: /:year/:month/:day/:title/
 exclude: ["README.md", "changelog.md", "server", "tools", "Pipfile"]
 plugins:
   - jekyll-paginate
