@@ -29,3 +29,11 @@ permalink: /bookmarks/
  <a href="/" target="_blank" rel="noopener"><font color="#8a2be2"> Name </font> </a>
  <a href="/" target="_blank" rel="noopener"><font color="#8a2be2"> Name </font> </a>
 </h4>
+<div class="vertical-links">
+ <a href="/" target="_blank" rel="noopener"><font color="#8a2be2"> Name </font> </a>
+ <a href="/" target="_blank" rel="noopener"><font color="#8a2be2"> Name </font> </a>
+ <a href="/" target="_blank" rel="noopener"><font color="#8a2be2"> Name </font> </a>
+ <a href="/" target="_blank" rel="noopener"><font color="#8a2be2"> Name </font> </a>
+ <a href="/" target="_blank" rel="noopener"><font color="#8a2be2"> Name </font> </a>
+ <a href="/" target="_blank" rel="noopener"><font color="#8a2be2"> Name </font> </a>
+</div>
