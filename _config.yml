@@ -1,6 +1,6 @@
 # Site settings
 title: Hello.Ga
-subtitle: [但行好事丨莫问前程丨前路有光丨初心莫忘]
+subtitle: [但行好事丨莫问前程丨前路有光丨初心莫忘丨]
 keywords: Reading
 description: DomainName.Plus.
 # baseurl: "/read" # the subpath of your site, e.g. /blog
@@ -33,7 +33,7 @@ paginate: 18 # 分页大小
 paginate_path: "page/:num/"
 
 # Search settings
-baidu_search: true
+baidu_search: # true
 google_search: # true
 
 # Menu settings
