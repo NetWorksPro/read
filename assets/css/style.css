@@ -54,6 +54,14 @@ a, button.submit {
     transition: all .1s ease-in;
 }
 
+/* bookmarks Flexbox垂直布局 换行   */ 
+.vertical-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+
 a:hover, a:active {
     color: #444;
 }
