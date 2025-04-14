@@ -5,8 +5,8 @@ comments: true
 permalink: /bookmark/
 ---
 
-<div class="container">
-  <div class="centered-box">
+<div class="center">
+
 
   <h1>BookMark</h1>
 <li>抖音<a href="/" target="_blank" rel="noopener">Name</a></li>
@@ -31,5 +31,5 @@ permalink: /bookmark/
 | <a href="/" target="_blank" rel="noopener">Name</a> |
 
     我是居中内容
-  </div>
+
 </div>
