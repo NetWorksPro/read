@@ -7,6 +7,8 @@ permalink: /bookmarks/
  
 ### 一些链接
 
+<h4 align = "center">
+ 
 >   <a href="/" target="_blank" rel="noopener"><font color="#8a2be2"> Name </font> </a>
 
 >   <a href="/" target="_blank" rel="noopener"><font color="#8a2be2"> Name </font> </a>
@@ -18,3 +20,5 @@ permalink: /bookmarks/
 >   <a href="/" target="_blank" rel="noopener"><font color="#8a2be2"> Name </font> </a>
 
 >   <a href="/" target="_blank" rel="noopener"><font color="#8a2be2"> Name </font> </a>
+
+</h4>
