@@ -291,7 +291,9 @@ a:focus {
     border: 1px solid #ccc;
     background: #eee;
 }
-/* #01579f #555
+
+/* #01579f #555*/
+
 .post .post-content p a {
     color: #555;
     padding-bottom: 2px;
