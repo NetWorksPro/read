@@ -1,0 +1,9 @@
+jekyll:
+  name: 女人
+  color: "#6f42c1"
+webdev:
+  name: 男人
+  color: "#0366d6"
+design:
+  name: 阅读分享
+  color: "#28a745"
