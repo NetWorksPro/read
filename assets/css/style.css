@@ -22,7 +22,7 @@
 body {
     /*  #444  #333  */ 
     background-color: #e8f6f3;
-    color: #333;
+    color: #0000ff;
     font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;  
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -98,12 +98,12 @@ a:focus {
     color: #555;
 }
 
-/* #999/#555 #0000ff标题名 */ 
+/* #999/#555 #0000ff 副标题名 */ 
 
 #header .site-name .description {
     font-family: "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
     margin: .4em 0 .2em;
-    color: #0000ff;
+    color: #666;
 }
 
 #header #nav-menu {
