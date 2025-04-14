@@ -367,6 +367,35 @@ a:focus {
     display: inline-block;
 }
 
+/* 通用标签样式 */
+.tag {
+  display: inline-block;
+  padding: 0.2em 0.6em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.25em;
+  font-size: 0.85em;
+  text-decoration: none;
+  color: white;
+}
+
+/* 特定标签颜色 */
+.tag-男人 {
+  background-color: #6f42c1;
+}
+
+.tag-感情 {
+  background-color: #0366d6;
+}
+
+.tag-不认输 {
+  background-color: #28a745;
+}
+
+.tag-女人 {
+  background-color: #ffd33d;
+  color: #333;
+}
+/* 结束 */
 .page-navigator {
     border-top: 1px solid #ddd;
     list-style: none;
