@@ -7,13 +7,14 @@ permalink: /bookmarks/
  
 ### 一些链接
 
->  <font color="#8a2be2"> <a href="/" target="_blank" rel="noopener">Name</a> </font> 
+>   <a href="/" target="_blank" rel="noopener"><font color="#8a2be2"> Name </font> </a>
 
->  <font color="#3300ff"> <a href="/" target="_blank" rel="noopener">Name</a> </font> 
+>   <a href="/" target="_blank" rel="noopener"><font color="#8a2be2"> Name </font> </a>
 
->  <font color="#990000"> <a href="/" target="_blank" rel="noopener">Name</a> </font> 
+>   <a href="/" target="_blank" rel="noopener"><font color="#8a2be2"> Name </font> </a>
 
->  <font color="#6600ff"> <a href="/" target="_blank" rel="noopener">Name</a> </font> 
+>   <a href="/" target="_blank" rel="noopener"><font color="#8a2be2"> Name </font> </a>
 
->  <font color="#cc0000"> <a href="/" target="_blank" rel="noopener">Name</a> </font> 
+>   <a href="/" target="_blank" rel="noopener"><font color="#8a2be2"> Name </font> </a>
 
+>   <a href="/" target="_blank" rel="noopener"><font color="#8a2be2"> Name </font> </a>
