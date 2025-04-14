@@ -7,11 +7,12 @@ permalink: /bookmarks/
 
 ### BookMarks
 
->   <a href="/" target="_blank" rel="noopener"><font color="#a8bb19"> BookMarks书签链接占位 1 </font> </a>
+>   <a href="https://www.runoob.com/markdown/md-tutorial.html" target="_blank" rel="noopener"><font color="#a8bb19"> MarkDown教程 </font> </a>
 
->   <a href="/" target="_blank" rel="noopener"><font color="#7cb9e8"> BookMarks书签链接占位 2 </font> </a>
 
->   <a href="/" target="_blank" rel="noopener"><font color="#c9ffe5"> BookMarks书签链接占位 3 </font> </a>
+>   <a href="https://zh.spycolor.com" target="_blank" rel="noopener"><font color="#7cb9e8"> Color CSS 颜色 </font> </a>
+
+>   <a href="https://chat.deepseek.com" target="_blank" rel="noopener"><font color="#c9ffe5"> DeepSeek AI </font> </a>
 
 >   <a href="/" target="_blank" rel="noopener"><font color="#b284be"> BookMarks书签链接占位 4 </font> </a>
 
