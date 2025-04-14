@@ -5,8 +5,6 @@ comments: true
 permalink: /bookmark/
 ---
 
-
-    <div style="color:blue; text-align:center;>
   <h1>BookMark</h1>
 <li>抖音<a href="/" target="_blank" rel="noopener">Name</a></li>
 <p>小红书<a href="/" target="_blank" rel="noopener">Name</a></p>
