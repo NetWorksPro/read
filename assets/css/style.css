@@ -55,10 +55,10 @@ a, button.submit {
     transition: all .1s ease-in;
 }
 
-/* #0000ff #444   */ 
+/* #0000ff #444  点击颜色 */ 
 
 a:hover, a:active {
-    color: #0000ff;
+    color: #444;
 }
 
 a:focus {
@@ -98,12 +98,12 @@ a:focus {
     color: #555;
 }
 
-/* #999/#555  */ 
+/* #999/#555 #0000ff标题名 */ 
 
 #header .site-name .description {
     font-family: "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
     margin: .4em 0 .2em;
-    color: #555;
+    color: #0000ff;
 }
 
 #header #nav-menu {
@@ -114,18 +114,18 @@ a:focus {
     bottom: 0;
 }
 
-/* #444/#000066  */ 
+/* #444/#000066  导航颜色*/ 
 #header #nav-menu a {
     display: inline-block;
     padding: 3px 20px 3px;
     line-height: 30px;
-    color: #000066;
+    color: #333;
     font-size: 13px;
     border: 1px solid transparent;
 }
 /* #444/#000066  */ 
 #header #nav-menu a:hover {
-    border-bottom-color: #000066;
+    border-bottom-color: #444;
 }
 
 #header #nav-menu a.current {
@@ -174,9 +174,9 @@ a:focus {
     line-height: 1.5;
     padding: 5px;
 }
-/* #0066ff/#6E7173 */ 
+/* #535556/#6E7173 */ 
 #sidebar .widget ul {
-    color: #0066ff;
+    color: #535556;
     list-style-type: disc;
     margin-left: 18px;
     padding: 0;
