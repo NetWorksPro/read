@@ -10,6 +10,12 @@ permalink: /tags/
     <li><a href="{{ site.baseurl }}/tags/#{{ tag[0] }}">{{ tag[0] }} <span>{{ tag | last | size }}</span></a></li>
   {% endfor %}
   </ul>
+  
+{% for tag_name in page.tags %}
+  {% assign tag = site.data.tags[tag_name] %}
+  <span class="tag" style="background-color: {{ tag.color }}">{{ tag.name }}</span>
+{% endfor %}
+
 
   <div class="post post-archive">
   {% for tag in site.tags %}
