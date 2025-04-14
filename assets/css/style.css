@@ -22,7 +22,7 @@
 body {
     /*  #444  #333  */ 
     background-color: #e8f6f3;
-    color: #0000ff;
+    color: #333;
     font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;  
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -45,9 +45,9 @@ body {
     padding-top: 20px;
     border-top: 1px solid rgba(150, 150, 150, 0.2);
 }
-
+/* #6E7173 #444*/
 a, button.submit {
-    color: #6E7173;
+    color: #444;
     text-decoration: none;
     -webkit-transition: all .1s ease-in;
     -moz-transition: all .1s ease-in;
