@@ -227,9 +227,9 @@ a:focus {
     text-align: left;
     font: bold 20px/1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
 }
-/* #333 #0033ff */
+/* #333 #0066ff 文章标题颜色*/
 .post .post-title a {
-    color: #0033ff;
+    color: #0066ff;
 }
 /*  #666/#999 */
 .post .post-meta {
