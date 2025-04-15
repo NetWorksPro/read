@@ -18,6 +18,19 @@
 * 葛巾紫 #E9EBFE
 * 极光灰 #EAEAEF
  */
+/*root 测试渐变 */
+:root {
+  --primary-color: #e74c3c;
+  --secondary-color: #3498db;
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+h2 {
+  color: var(--secondary-color);
+}
 
 body {
     background-color: #e8f6f3;
