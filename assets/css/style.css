@@ -23,7 +23,7 @@ body {
     /*  #444  #333  */ 
    /* background-color: #e8f6f3; */
   /* 添加到main.scss或你的样式文件中 */
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #eceffc 0%, #e8f6f3 100%);
   min-height: 100vh;
   margin: 0;
   /* 渐变色测试结束 */
