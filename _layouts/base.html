@@ -112,6 +112,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             {% for menu in site.menu %}
             <a href="{{ site.baseurl }}/{{ menu.directory }}"><i class="{{ menu.icon }}"> {{ menu.page }}</i></a>
             {% endfor %}
+            
+            {% include widgets/theme-switcher %}
         </div>
         <script type="text/javascript">
             var menus = document.getElementById('nav-menu');
