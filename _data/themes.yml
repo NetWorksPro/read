@@ -1,0 +1,11 @@
+- name: "light"
+  bg_color: "#ffffff"
+
+- name: "dark"
+  bg_color: "#1a1a1a"
+
+- name: "blue"
+  bg_color: "#e6f2ff"
+
+- name: "green"
+  bg_color: "#e6ffe6"
