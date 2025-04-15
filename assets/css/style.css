@@ -213,36 +213,39 @@ a:focus {
 }
 
 /* title for search result or tagged posts #666/#888*/
-/* .label-title {              /* 选择所有 class="label-title" 的元素 */
-/*    margin-top: 1.1em;      /* 上外边距：1.1倍当前字体大小 */
-/*    font-size: 20px;        /* 字体大小：20像素 */
-/*    font-weight: normal;    /* 字体粗细：正常（非加粗） */
-/*   color: #666;           /* 字体颜色：深灰色（十六进制代码#666） */
-/* }
-/* 静态彩虹渐变色 */
-.label-title {
-    margin-top: 1.1em;
-    font-size: 20px;
-    font-weight: normal;
-    background: linear-gradient(to right, 
-        red, orange, yellow, green, blue, indigo, violet);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
-    display: inline-block;
+ .label-title {              /* 选择所有 class="label-title" 的元素 */
+   margin-top: 1.1em;      /* 上外边距：1.1倍当前字体大小 */
+    font-size: 20px;        /* 字体大小：20像素 */
+    font-weight: normal;    /* 字体粗细：正常（非加粗） */
+    color: #666;           /* 字体颜色：深灰色（十六进制代码#666） */
 }
-
+/* 静态彩虹渐变色 */
 .post {
     padding: 25px 0 15px;
 }
 /* post title   25px #333/#555 */
-.post .post-title {
-    margin: 0;
-    color: #555;
-    text-align: left;
-    font: bold 20px/1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
+/* .post .post-title {
+/*    margin: 0;
+/*    color: #555;
+/*    text-align: left;
+/*    font: bold 20px/1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
+/* }
+
+.post .post-title a {
+    color: #333; /* 回退颜色，如果浏览器不支持渐变时使用 */
+    background: linear-gradient(90deg, #0061ff, #60efff) /* 创建水平渐变（从左到右）从橙色到粉红色 */
+    -webkit-background-clip: text; /* 将背景裁剪为文字形状（Webkit浏览器） */
+    background-clip: text; /* 标准属性，将背景裁剪为文字形状 */
+    -webkit-text-fill-color: transparent; /* 使文字本身透明以显示背景渐变（Webkit） */
+    text-fill-color: transparent; /* 标准属性，使文字透明 */
+    display: inline; /* 确保渐变效果正确应用在内联元素上 */
 }
+/* 示例：蓝色系渐变 */
+/* linear-gradient(90deg, #0061ff, #60efff)
+
+/* 示例：紫色系渐变 */
+/* linear-gradient(90deg, #7928ca, #ff0080)
+
 /* #333 #0066ff 文章标题颜色*/
 .post .post-title a {
     color: #333;
