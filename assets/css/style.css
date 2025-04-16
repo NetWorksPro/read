@@ -244,7 +244,17 @@ a:focus {
   /* 添加垂直内边距（0.2em顶部底部），防止渐变被截断 */
   padding: 0.2em 0;
 
+/* 在父元素中设置左对齐 */
+.post-title-container {
+  text-align: left; /* 强制容器内容左对齐 */
+}
 
+.gradient-title {
+  /* 保持原有inline-block显示方式 */
+  display: inline-block;
+  /* 其他原有样式不变 */
+}
+    
   /* ====================== */
   /* 交互增强效果（可选） */
   /* ====================== */
