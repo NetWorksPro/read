@@ -21,7 +21,11 @@
 
 body {
     /*  #444  #333  */ 
-  background: linear-gradient(135deg, #f1f1f1 0%, #DCE2F1 100%);
+    background: #F1F1F1;
+    background: radial-gradient(circle, rgba(241, 241, 241, 1) 0%, rgba(220, 226, 241, 1) 100%);
+        /*  渐变色#f1f1f1  */ 
+  /*    background: linear-gradient(135deg, #f1f1f1 0%, #DCE2F1 100%);  */ 
+    
   min-height: 100vh;
   margin: 0;
  /* 渐变色测试结束 */
