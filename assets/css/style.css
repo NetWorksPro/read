@@ -221,42 +221,17 @@ a:focus {
 }
 
 /*  #666/#999 */
-   /*  .post .post-title {
-   /*      margin: 0;
-   /*      color: #555;
-   /*      text-align: left;
-   /*      font: bold 25px/1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
-   /*  }
+     .post .post-title {
+         margin: 0;
+         color: #555;
+         text-align: left;
+         font: bold 25px/1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
+    }
 
-   /*  .post .post-title a {
-   /*    color: #555;
-   /* }
-   /* 标题渐变色 */
-.post .post-title {
-    margin: 0;
-    font: bold 25px/1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
-    text-align: left;
-    
-    /* 渐变色关键代码 */
-    background-image: linear-gradient(to right, #555, #888); /* 调整渐变方向和颜色 */
-    background-clip: text;
-    -webkit-background-clip: text; /* Safari 兼容 */
-    color: transparent;
-    -webkit-text-fill-color: transparent; /* 覆盖旧版 Safari */
-    display: inline-block; /* 必须设置，否则渐变不生效 */
-}
-
-/* 标题中的链接样式 */
-.post .post-title a {
-    /* 继承父级渐变效果 */
-    background-image: inherit;
-    background-clip: inherit;
-    -webkit-background-clip: inherit;
-    color: inherit;
-    -webkit-text-fill-color: inherit;
-}
-
-
+     .post .post-title a {
+       color: #555;
+ }
+ 
 /*  #666/#999 */
 .post .post-meta {
     padding: 0;
