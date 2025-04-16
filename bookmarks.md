@@ -18,7 +18,7 @@ permalink: /bookmarks/
 
 >   https://cssgradient.io/  CSS渐变色
     
->   这是一个链接 [CSS渐变色](https://cssgradient.io/)
+>   在线渐变生成工具快 [CSS渐变色](https://cssgradient.io/)
     
 >   <a href="/" target="_blank" rel="noopener"><font color="#5d8aa8"> BookMarks书签链接占位 5 </font> </a>
 
