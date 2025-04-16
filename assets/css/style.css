@@ -213,53 +213,23 @@ a:focus {
 }
 
 /* title for search result or tagged posts #666/#888*/
- .label-title {              /* 选择所有 class="label-title" 的元素 */
-   margin-top: 1.1em;      /* 上外边距：1.1倍当前字体大小 */
-    font-size: 20px;        /* 字体大小：20像素 */
-    font-weight: normal;    /* 字体粗细：正常（非加粗） */
-    color: #666;           /* 字体颜色：深灰色（十六进制代码#666） */
+/*  .label-title {              /* 选择所有 class="label-title" 的元素 */
+/*    margin-top: 1.1em;      /* 上外边距：1.1倍当前字体大小 */
+/*     font-size: 20px;        /* 字体大小：20像素 */
+/*     font-weight: normal;    /* 字体粗细：正常（非加粗） */
+/*     color: #666;           /* 字体颜色：深灰色（十六进制代码#666） */
 }
 
 
 /* 渐变色标题核心样式 */
-/* ====================== */
-.gradient-title {
-  /* 定义线性渐变背景（默认从左到右，蓝色到紫色）*/
-  background: linear-gradient(to right, #0000ff, #8a2be2);
-  
-  /* 浏览器前缀：将背景裁剪到文字区域（需配合透明文字颜色）*/
-  -webkit-background-clip: text;
-  /* 标准属性：现代浏览器支持的文字背景裁剪 */
-  background-clip: text;
 
-  text-align: left; /* 文字内容左对齐（针对多行标题） */
-  text-indent: 0; /* 消除可能的首行缩进 */
-  
-  /* 关键设置：使文字透明以显示背景渐变 */
-  color: transparent;
-  
-  /* 转换为行内块元素，使渐变背景匹配文字宽度 */
-  display: inline-block;
-  
-  /* 添加垂直内边距（0.2em顶部底部），防止渐变被截断 */
-  padding: 0.2em 0;
-
-/* 在父元素中设置左对齐 */
-.post-title-container {
-  text-align: left; /* 强制容器内容左对齐 */
-}
-
-.gradient-title {
-  /* 保持原有inline-block显示方式 */
-  display: inline-block;
-  /* 其他原有样式不变 */
-}
-    
-  /* ====================== */
-  /* 交互增强效果（可选） */
-  /* ====================== */
-  /* 定义背景渐变的过渡动画（持续0.5秒，缓动效果）*/
-  transition: background 0.5s ease;
+.label-title {
+    color: #666; /* 备用颜色 */
+    @supports (background-clip: text) {
+        color: transparent;
+        background-image: linear-gradient(to right, #666, #999);
+        background-clip: text;
+    }
 }
 
 /* 静态彩虹渐变色 */
