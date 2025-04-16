@@ -220,13 +220,12 @@ a:focus {
     color: #666;           /* 字体颜色：深灰色（十六进制代码#666） */
 }
 
-/* 文章标题 渐变色CSS */
-/* ====================== */
+
 /* 渐变色标题核心样式 */
 /* ====================== */
 .gradient-title {
-  /* 定义线性渐变背景（默认从左到右，珊瑚色到蓝绿色）*/
-  background: linear-gradient(to right, #ff6b6b, #4ecdc4);
+  /* 定义线性渐变背景（默认从左到右，蓝色到紫色）*/
+  background: linear-gradient(to right, #0000ff, #8a2be2);
   
   /* 浏览器前缀：将背景裁剪到文字区域（需配合透明文字颜色）*/
   -webkit-background-clip: text;
@@ -248,12 +247,6 @@ a:focus {
   /* ====================== */
   /* 定义背景渐变的过渡动画（持续0.5秒，缓动效果）*/
   transition: background 0.5s ease;
-  
-  /* 鼠标悬停状态 */
-  &:hover {
-    /* 切换为新的渐变色（浅灰到米黄）*/
-    background: linear-gradient(to right, #f1f1f1, #f8efe8);
-  }
 }
 
 /* 静态彩虹渐变色 */
