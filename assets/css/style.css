@@ -219,6 +219,23 @@ a:focus {
     font-weight: normal;    /* 字体粗细：正常（非加粗） */
     color: #666;           /* 字体颜色：深灰色（十六进制代码#666） */
 }
+
+/* 渐变色标题 */
+.gradient-title {
+  background: linear-gradient(to right, #0000ff, #8a2be2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+  padding: 0.2em 0;
+  
+  /* 可选动画效果 */
+  transition: background 0.5s ease;
+  &:hover {
+    background: linear-gradient(to right, #ff8e53, #fe6b8b);
+  }
+}
+
 /* 静态彩虹渐变色 */
 .post {
     padding: 25px 0 15px;
