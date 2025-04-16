@@ -1177,6 +1177,23 @@ figure {
 .icon-rss:before {
     content: "\ea9b";
 }
+/* bookmarks*/
+.bookmarks {
+  li {
+    margin: 0.5rem 0;
+    padding: 0.3rem;
+    transition: background 0.2s;
+    
+    &:hover {
+      background: #f5f5f5;
+    }
+    
+    a {
+      font-weight: 600;
+      color: #2c3e50;
+    }
+  }
+}
 
 /* post navigator*/
 .post-nav {
