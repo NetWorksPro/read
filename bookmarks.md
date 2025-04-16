@@ -14,7 +14,9 @@ permalink: /bookmarks/
 
 >   <a href="https://chat.deepseek.com" target="_blank" rel="noopener"><font color="#c9ffe5"> DeepSeek AI </font> </a>
 
->   <a href="/" target="_blank" rel="noopener"><font color="#b284be"> BookMarks书签链接占位 4 </font> </a>
+>   <a href="https://cssgradient.io/" target="_blank" rel="noopener"><font color="#b284be"> BookMarks书签链接占位 4 </font> </a>
+
+    https://cssgradient.io/  CSS渐变色
 
 >   <a href="/" target="_blank" rel="noopener"><font color="#5d8aa8"> BookMarks书签链接占位 5 </font> </a>
 
