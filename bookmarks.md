@@ -4,8 +4,6 @@ title: 我的书签集
 permalink: /bookmarks/
 ---
 
-# 收藏夹
-
 {% raw %}{% assign categories = site.data.bookmarks %}
 {% for category in categories %}
 ## {{ category.name }}
