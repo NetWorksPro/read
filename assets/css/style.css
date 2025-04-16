@@ -64,12 +64,10 @@ a, button.submit {
 
 /* #0000ff #444  点击颜色 */ 
 
-a:hover, a:active {
-    color: #444;
-}
-
-a:focus {
-    outline: auto;
+a:hover, a:focus, a:active {
+    color: #0000ff;
+    /* 可选：增加其他样式（如下划线） */
+    text-decoration: underline;
 }
 
 .clear {
