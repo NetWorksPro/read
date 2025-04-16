@@ -237,12 +237,7 @@ a:focus {
     color: #555; /* 不支持渐变的浏览器回退颜色 */
     text-align: left;
     font: bold 25px/1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;
-    background-image: linear-gradient(to right, #555, #888); /* 灰色渐变 */
-    background-clip: text;   
- /*     -webkit-background-clip: text;   */
- /*     -webkit-text-fill-color: transparent;  */
-    color: transparent;
-    display: inline-block; /* 确保渐变生效 */
+    background-image: linear-gradient(to right, #555, #888); /* 灰色渐变 */ 
 }
 
 .post .post-title a {
