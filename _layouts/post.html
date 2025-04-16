@@ -5,7 +5,14 @@ layout: base
 
     <header class="post-header">
             <!-- 渐变文章标题CSS gradient-title  -->
-        <h1 class="gradient-title" itemprop="name headline">{{ page.title }}</h1
+        <h1 class="gradient-title" itemprop="name headline">{{ page.title }}</h1> 
+        <!-- 方法一对应的HTML -->
+<h1 class="gradient-title">{{ page.title }}</h1>
+
+<!-- 方法二对应的HTML -->
+<div class="post-title-container">
+  <h1 class="gradient-title">{{ page.title }}</h1>
+    
                <!-- 默认文章标题 色 #666  -->
         <!--  <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>  -->
         <p class="post-meta">
