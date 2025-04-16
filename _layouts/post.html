@@ -1,15 +1,18 @@
----
+
 layout: base
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
     <header class="post-header">
-            <!-- 渐变文章标题CSS gradient-title  -->
-       <div class="post-title-container">
-        <h1 class="gradient-title">{{ page.title }}</h1>
-    
-               <!-- 默认文章标题 色 #666  -->
-        <!--  <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>  -->
+           <!-- 文章标题渐变 -->
+        <h2 class="gradient-title">{{ page.title }}</h2>
+                   <!-- 文章标题渐变2 -->
+        <div class="post-title-container">
+      <h3 class="gradient-title">{{ page.title }}</h3>
+                 <!-- 文章标题渐变3 -->
+        <h4 class="post-title" itemprop="name headline">{{ page.title }}</h4>
+        <!--     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1> -->
+           <!-- 文章标题默认 -->
         <p class="post-meta">
             <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                 <i class="icon-post-date">{{ page.date | date: "%b %-d, %Y" }}</i>
