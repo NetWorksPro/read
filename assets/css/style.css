@@ -231,6 +231,9 @@ a:focus {
   -webkit-background-clip: text;
   /* 标准属性：现代浏览器支持的文字背景裁剪 */
   background-clip: text;
+
+  text-align: left; /* 文字内容左对齐（针对多行标题） */
+  text-indent: 0; /* 消除可能的首行缩进 */
   
   /* 关键设置：使文字透明以显示背景渐变 */
   color: transparent;
