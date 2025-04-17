@@ -2,6 +2,16 @@
 .gradient-text {
   color: #444; /* 备选颜色 */
 }
+/* <p class="blue-gradient-text">这是一段线性渐蓝变紫色渐变色的文本</p> */
+.blue-gradient-text {
+  background: linear-gradient(45deg, #0000ff, #8a2be2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 /* <p class="linear-gradient-text">这是一段线性渐变色的文本</p> */
  .linear-gradient-text {
     background: linear-gradient(to right, #ff8a00, #e52e71, #1e90ff);
