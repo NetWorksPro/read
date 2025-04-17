@@ -1,3 +1,7 @@
+/*  不支持CSS3的浏览器中，可通过设置默认颜色作为备选方案  */
+.gradient-text {
+  color: #444; /* 备选颜色 */
+}
 /* <p class="linear-gradient-text">这是一段线性渐变色的文本</p> */
  .linear-gradient-text {
     background: linear-gradient(to right, #ff8a00, #e52e71, #1e90ff);
