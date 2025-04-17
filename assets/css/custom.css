@@ -1,0 +1,59 @@
+/* <p class="linear-gradient-text">这是一段线性渐变色的文本</p> */
+ .linear-gradient-text {
+    background: linear-gradient(to right, #ff8a00, #e52e71, #1e90ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 24px;
+    font-weight: bold;
+  }
+/*  <p class="radial-gradient-text">这是一段径向渐变色的文本</p>  */
+ .radial-gradient-text {
+    background: radial-gradient(circle, #ff8a00, #e52e71, #1e90ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 24px;
+    font-weight: bold;
+  }
+/*  <p class="rainbow-text">这是一段彩虹渐变色的文本</p>  */
+ .rainbow-text {
+    background: linear-gradient(to right, 
+      red, orange, yellow, 
+      green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 24px;
+    font-weight: bold;
+  }
+/*  <p class="vertical-gradient-text">这是一段垂直渐变色的文本</p>   */
+ .vertical-gradient-text {
+    background: linear-gradient(to bottom, #1e90ff, #ff1493);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+/*  <p class="multi-gradient-text">这是一段动画渐变色的文本，多方向渐变文本</p>   */
+ .multi-gradient-text {
+    background: linear-gradient(45deg, 
+      #ff0000, #ff7700, #ffdd00, 
+      #00ff00, #0000ff, #9900ff, 
+      #ff0099);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 24px;
+    font-weight: bold;
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+  }
