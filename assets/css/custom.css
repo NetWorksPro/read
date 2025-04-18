@@ -26,6 +26,8 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent; /* 备用 */
+  font-size: 24px;
+  font-weight: bold;
 }
 
 /*   <p class="rainbow-text-diagonal">斜角彩虹渐变</p>  */ 
@@ -37,6 +39,8 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  font-size: 24px;
+  font-weight: bold;
 }
 /*   <p class="rainbow-text-animated">流动彩虹动画</p>  */ 
 
@@ -49,6 +53,8 @@
   background-clip: text;
   color: transparent;
   animation: flow 5s linear infinite;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 @keyframes flow {
@@ -63,6 +69,8 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 /*  <p class="radial-gradient-text">这是一段径向渐变色的文本</p>  */
