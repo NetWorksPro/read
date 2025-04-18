@@ -34,10 +34,10 @@
 .rainbow-text-diagonal {
   background: linear-gradient(45deg, 
     #FF3366 10%,    /* 霓虹粉 */
-    #FF6B6B 20%, 
+    #ff0066 20%, 
     #FFAA33 35%,    /* 橙 */
     #33CC99 50%,    /* 青柠绿 */
-    #33CCFF 65%,    /* 亮蓝 */
+    #00008b 65%,    /* 蓝 */
     #9933FF 80%     /* 电光紫 */
   );
   -webkit-background-clip: text;
