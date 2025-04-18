@@ -17,6 +17,53 @@
     font-size: 24px;
     font-weight: bold;
   }
+/*   <p class="rainbow-text">基础水平彩虹渐变</p>  */ 
+.rainbow-text {
+  background: linear-gradient(90deg, 
+    #ff0000, #ff7f00, #ffff00, #00ff00,
+    #00ffff, #0000ff, #8b00ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; /* 备用 */
+}
+
+/*   <p class="rainbow-text-diagonal">斜角彩虹渐变</p>  */ 
+.rainbow-text-diagonal {
+  background: linear-gradient(45deg, 
+    #ff0000 20%, #ff7f00 30%, #ffff00 40%,
+    #00ff00 50%, #00ffff 60%, #0000ff 70%, 
+    #8b00ff 80%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+/*   <p class="rainbow-text-animated">流动彩虹动画</p>  */ 
+
+.rainbow-text-animated {
+  background: linear-gradient(90deg, 
+    #ff0000, #ff7f00, #ffff00, #00ff00,
+    #00ffff, #0000ff, #8b00ff, #ff0000);
+  background-size: 400% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: flow 5s linear infinite;
+}
+
+@keyframes flow {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+/*  <p class="rainbow-text-vertical">垂直彩虹渐变</p>  */
+.rainbow-text-vertical {
+  background: linear-gradient(180deg, 
+    #ff0000, #ff7f00 20%, #ffff00 40%,
+    #00ff00 60%, #00ffff 80%, #0000ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
 
 /*  <p class="radial-gradient-text">这是一段径向渐变色的文本</p>  */
  .radial-gradient-text {
@@ -27,8 +74,8 @@
     font-size: 24px;
     font-weight: bold;
   }
-/*  <p class="rainbow-text">这是一段彩虹渐变色的文本</p>  */
- .rainbow-text {
+/*  <p class="rainbow-text-p">这是一段彩虹渐变色的文本</p>  */
+ .rainbow-text-p {
     background: linear-gradient(to right, 
       red, orange, yellow, 
       green, blue, indigo, violet);
