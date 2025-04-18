@@ -29,3 +29,11 @@ tags: [理发, 圈子]
 <p class="rainbow-text-animated">流动彩虹动画</p>
 
 <p class="rainbow-text-vertical">垂直彩虹渐变</p>
+
+<h4 class="left">左对齐标题</h4>
+
+<h4 class="right">右对齐标题</h4>
+
+<h4 class="center">居中对齐标题</h4>
+
+
