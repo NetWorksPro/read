@@ -71,6 +71,8 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 /*  <p class="radial-gradient-text">这是一段径向渐变色的文本</p>  */
