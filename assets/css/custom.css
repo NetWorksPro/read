@@ -33,8 +33,8 @@
 /*   <p class="rainbow-text-diagonal">斜角彩虹渐变</p>  */ 
 .rainbow-text-diagonal {
   background: linear-gradient(45deg, 
-    #ff0000 20%, #ff7f00 30%, #ffff00 40%,
-    #00ff00 50%, #00ffff 60%, #0000ff 70%, 
+    #ff0000 20%, #ff7f00 30%, #0000ff 40%,
+    #00ff00 50%, #00ffff 60%, #202020 70%, 
     #8b00ff 80%);
   -webkit-background-clip: text;
   background-clip: text;
