@@ -65,7 +65,7 @@
 .rainbow-text-vertical {
   background: linear-gradient(180deg, 
     #ff0000, #ff7f00 20%, #ffff00 40%,
-    #00ff00 60%, #00ffff 80%, #0000ff);
+    #8a2be2 60%, #00ffff 80%, #0000ff);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
