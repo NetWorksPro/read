@@ -28,7 +28,7 @@ body {
     
   min-height: 100vh;
   margin: 0;
- /* 渐变色测试结束 */
+ /* 渐变色结束 */
     color: #333;
     font-family: "TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;  
     -webkit-font-smoothing: antialiased;
@@ -52,6 +52,11 @@ body {
     padding-top: 20px;
     border-top: 1px solid rgba(150, 150, 150, 0.2);
 }
+/*   靠左 靠右  剧中 */
+ .left   { text-align: left   !important; } /*  靠左  */
+  .right  { text-align: right  !important; } /*  靠右 */
+  .center { text-align: center !important; } /*   剧中 */
+
 /* #6E7173 #444*/
 a, button.submit {
     color: #444;
