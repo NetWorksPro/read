@@ -20,7 +20,7 @@
 /*   <p class="rainbow-text">基础水平彩虹渐变</p>  */ 
 .rainbow-text {
   background: linear-gradient(90deg, 
-    #ff0000, #ff7f00, #ffff00, #00ff00,
+    #0000ff, #ff7f00, #ff0000, #00ff00,
     #00ffff, #0000ff, #8b00ff);
   -webkit-background-clip: text;
   background-clip: text;
@@ -43,6 +43,8 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  font-size: 24px;
+  font-weight: bold;
 }
 /*   <p class="rainbow-text-animated">流动彩虹动画</p>  */ 
 
