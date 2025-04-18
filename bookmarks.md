@@ -20,7 +20,7 @@ permalink: /bookmarks/
     
 >   在线渐变生成工具快 [CSS渐变色](https://cssgradient.io/)
     
->   <a href="/" target="_blank" rel="noopener"><font color="#5d8aa8"> BookMarks书签链接占位 5 </font> </a>
+>   <a href="https://coolors.co/" target="_blank" rel="noopener"><font color="#5d8aa8"> Coolors-超快速调色板生成器！ 配色 </font> </a>
 
 >   <a href="/" target="_blank" rel="noopener"><font color="#00308f"> BookMarks书签链接占位 6 </font> </a>
 
