@@ -36,4 +36,8 @@ tags: [理发, 圈子]
 
 <h4 class="center">居中对齐标题</h4>
 
+>  <hr width="50%" color="#a9a9a9" />  水平线50% 颜色
 
+>  <hr class="rainbow-hr">  静态彩虹颜色   
+
+>  <hr class="animated-rainbow-hr"> 动态彩虹颜色
