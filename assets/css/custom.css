@@ -129,5 +129,46 @@
     100% {background-position: 0% 50%;}
   }
 
+/*   <hr class="rainbow-hr">  静态彩虹颜色   */
+  .rainbow-hr {
+    border: 0;
+    height: 4px;
+    background: linear-gradient(
+      to right,
+      #ff0000,  /* 红 */
+      #ff7f00,  /* 橙 */
+      #ffff00,  /* 黄 */
+      #00ff00,  /* 绿 */
+      #0000ff,  /* 蓝 */
+      #4b0082,  /* 靛 */
+      #8f00ff   /* 紫 */
+    );
+  }
+/*  <hr class="animated-rainbow-hr"> 动态彩虹颜色   */
+.animated-rainbow-hr {
+    border: 0;
+    height: 4px;
+    background: linear-gradient(
+      to right,
+      #ff0000,
+      #ff7f00,
+      #ffff00,
+      #00ff00,
+      #0000ff,
+      #4b0082,
+      #8f00ff
+    );
+    background-size: 200% auto;
+    animation: rainbow-flow 2s linear infinite;
+  }
+
+  @keyframes rainbow-flow {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
 
 
