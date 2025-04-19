@@ -148,7 +148,7 @@
 }
 @media (max-width: 768px) {
   .rainbow-hr {
-    width: 80%; /* 小屏幕上宽度调整为80% */
+    width: 50%; /* 小屏幕上宽度调整为80% */
   }
 }
 /*  <hr class="animated-rainbow-hr"> 动态彩虹颜色   */
