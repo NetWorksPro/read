@@ -131,6 +131,7 @@
 
 /*   <hr class="rainbow-hr">  静态彩虹颜色   */
   .rainbow-hr {
+    width="50%"
     border: 0;
     height: 2px;
     background: linear-gradient(
@@ -147,6 +148,7 @@
 /*  <hr class="animated-rainbow-hr"> 动态彩虹颜色   */
 .animated-rainbow-hr {
     border: 0;
+    width="50%"
     height: 2px;
     background: linear-gradient(
       to right,
