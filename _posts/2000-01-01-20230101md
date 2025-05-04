@@ -18,7 +18,6 @@ tags: [理发, 圈子]
 
 <p class="multi-gradient-text">这是一段动画渐变色的文本，多方向渐变文本</p>
 
-<p class="rainbow-text-animated">流动彩虹动画</p>
 
 <p class="vertical-gradient-text">这是一段垂直渐变色的文本</p>
 
@@ -28,7 +27,9 @@ tags: [理发, 圈子]
 
 <p class="rainbow-text-diagonal">斜角彩虹渐变</p>
 
-<p class="rainbow-text-vertical">垂直彩虹渐变</p>
+<p class="rainbow-text-animated">流动彩虹动画</p>
+
+<p class="rainbow-text-vertical"> ### 效果不理想   垂直彩虹渐变</p>
 
 <h4 class="left">左对齐标题</h4>
 
