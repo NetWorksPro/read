@@ -18,6 +18,8 @@ tags: [理发, 圈子]
 
 <p class="multi-gradient-text">这是一段动画渐变色的文本，多方向渐变文本</p>
 
+<!-- 使用 CSS 控制字体大小和颜色 -->
+<span style="color: #0000ff; font-size: 20px">使用 CSS 控制字体大小和颜色</span>
 
 <p class="vertical-gradient-text">这是一段垂直渐变色的文本</p>
 
